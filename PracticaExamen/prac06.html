@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de estilos CSS</title>
+    <style>
+        /* Estilos CSS */
+        p {
+            color: blue;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin: 10px;
+            padding: 10px;
+            width: 300px;
+            height: 200px;
+            background-color: #f0f0f0;
+            border: 1px solid black;
+            opacity: 0.5;
+            line-height: 1.5;
+            letter-spacing: 2px;
+            word-spacing: 5px;
+            white-space: nowrap;
+            text-indent: 20px;
+            vertical-align: middle;
+            box-sizing: border-box;
+            display: inline-block;
+            position: relative;
+            z-index: 3;
+            overflow-y: auto;
+            float: right;
+        }
+
+        span {
+            color: red;
+        }
+
+        div {
+            background-image: url('imagen.jpg');
+            background-repeat: repeat-x;
+            background-size: cover;
+            position: sticky;
+            margin-bottom: 20px;
+            margin-top: 15px;
+            margin-left: 30px;
+            margin-right: 25px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        a:visited {
+            color: purple;
+        }
+        a:hover{
+            color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <!-- Contenido HTML -->
+    <div>
+        <p>Este es un <span>texto resaltado en rojo</span>.</p>
+        <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+        </ul>
+        <i class="bi bi-bell"></i>
+        <i class="bi bi-toggle-off"></i>
+        &copy;
+        <a href="#">Enlace visitado</a>
+    </div>
+</body>
+</html>
